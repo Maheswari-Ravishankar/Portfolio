@@ -1,0 +1,74 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #e3e9ee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .business-card {
+    width: 600px;
+    height: 300px;
+    background: #1a2c44;
+    color: #fff;
+    display: flex;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  }
+  
+  .left {
+    width: 40%;
+    background: #1a2c44;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid #ccc;
+    flex-direction: column;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .logo img {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+    margin-bottom: 10px;
+  }
+  
+  .logo h2 {
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    line-height: 1.2;
+  }
+  
+  .logo span {
+    font-weight: normal;
+  }
+  
+  .right {
+    width: 60%;
+    padding: 25px;
+    background: #1a2c44;
+  }
+  
+  .right h3 {
+    color: #d4a74f;
+    font-size: 22px;
+    margin-bottom: 5px;
+  }
+  
+  .title {
+    margin-bottom: 20px;
+    font-style: italic;
+  }
+  
+  .info p {
+    margin: 10px 0;
+    line-height: 1.5;
+  }
+  
